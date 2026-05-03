@@ -25,22 +25,3 @@ endorsement when none has been given.
 grid: `playback`, `queue`, `voice`, `search`, `dj`, `uptime`,
 `sources`, `filters`, `languages`. Stroke style, AIskaron palette,
 24×24 viewBox so they upscale cleanly.
-
-### Screenshots
-
-`screenshots/` holds product screenshots referenced from the README
-"In action" section. Filenames are stable; the README does not
-break if a file is missing (GitHub renders the alt text).
-
-| File | What to capture |
-|---|---|
-| `01-play.png` | `/play <url>` with full embed: title, artist, progress bar, requester. |
-| `02-queue.png` | `/queue` paginated, 5+ tracks, current position highlighted. |
-| `03-search.png` | `/search <term>` showing the interactive picker with thumbnails and source badges. |
-| `04-nowplaying.png` | `/nowplaying` with live progress bar, duration, source. |
-| `05-help.png` | `/help` showing the categorised command list. |
-| `06-language.png` | `/language` flow showing the bot in two locales (e.g. en → es). |
-
-Recommended specs: 1200×800 PNG, ~150 KB each. Blur or crop guild
-identifying details (server icons, member tags, channel names with
-business context) before commit.

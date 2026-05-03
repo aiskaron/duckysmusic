@@ -17,6 +17,14 @@
   <p>
     <a href="https://discord.com/oauth2/authorize?client_id=1432026529805897758&permissions=37088320&scope=bot+applications.commands"><b>Add to your server</b></a>
     &nbsp;·&nbsp;
+    <a href="https://bot.aiskaron.com"><b>Website</b></a>
+    &nbsp;·&nbsp;
+    <a href="https://dashboard.aiskaron.com"><b>Dashboard</b></a>
+    &nbsp;·&nbsp;
+    <a href="https://status.aiskaron.com">Status</a>
+  </p>
+
+  <p>
     <a href="docs/commands.md">Commands</a>
     &nbsp;·&nbsp;
     <a href="docs/faq.md">FAQ</a>
@@ -32,10 +40,10 @@
 ## Table of contents
 
 - [What it does](#what-it-does)
-- [In action](#in-action)
 - [Slash commands at a glance](#slash-commands-at-a-glance)
 - [30 languages](#30-languages)
 - [Add the bot to your server](#add-the-bot-to-your-server)
+- [Official links](#official-links)
 - [Why a closed-source bot in 2026?](#why-a-closed-source-bot-in-2026)
 - [Project status](#project-status)
 - [Reporting issues](#reporting-issues)
@@ -97,43 +105,6 @@
   </tr>
 </table>
 
-## In action
-
-> Screenshots are captured from a real Discord server running the hosted bot. They will be added here as the team produces them; identifying details are blurred before commit.
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <img src="assets/screenshots/01-play.png" alt="The /play command — embed with title, artist, duration and progress bar" />
-      <p align="center"><sub><b>1. <code>/play</code></b> — instant queue with rich embed, progress bar, and the user who requested the track.</sub></p>
-    </td>
-    <td valign="top" width="50%">
-      <img src="assets/screenshots/02-queue.png" alt="The /queue command — paginated queue view" />
-      <p align="center"><sub><b>2. <code>/queue</code></b> — paginated view with arrow buttons, current position highlighted.</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <img src="assets/screenshots/03-search.png" alt="The /search command — interactive picker across sources" />
-      <p align="center"><sub><b>3. <code>/search</code></b> — interactive picker with thumbnails, durations, and source badges.</sub></p>
-    </td>
-    <td valign="top" width="50%">
-      <img src="assets/screenshots/04-nowplaying.png" alt="The /nowplaying command — full track detail with progress" />
-      <p align="center"><sub><b>4. <code>/nowplaying</code></b> — live progress, requester, duration, source.</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <img src="assets/screenshots/05-help.png" alt="The /help command — categorised command list" />
-      <p align="center"><sub><b>5. <code>/help</code></b> — categorised commands with one-line descriptions.</sub></p>
-    </td>
-    <td valign="top" width="50%">
-      <img src="assets/screenshots/06-language.png" alt="The /language command — switching the bot to another locale" />
-      <p align="center"><sub><b>6. <code>/language</code></b> — swap the bot's locale per server, instantly.</sub></p>
-    </td>
-  </tr>
-</table>
-
 ## Slash commands at a glance
 
 | Group | Commands |
@@ -160,6 +131,16 @@ The bot picks an initial language from the user's Discord client locale and fall
 > Required scopes: `bot` + `applications.commands`. You need **Manage Server** in the target Discord server.
 
 Once added, type `/help` in any channel where the bot is present. Type `/language <code>` to switch the bot's language for that server.
+
+## Official links
+
+| | URL | Purpose |
+|---|---|---|
+| **Website** | [bot.aiskaron.com](https://bot.aiskaron.com) | Product overview, features, FAQ. |
+| **Dashboard** | [dashboard.aiskaron.com](https://dashboard.aiskaron.com) | Configure DJ role, default volume, language and other per-server settings via OAuth login. |
+| **Status** | [status.aiskaron.com](https://status.aiskaron.com) | Live uptime for the bot and the audio node. |
+| **Premium** | [premium.aiskaron.com](https://premium.aiskaron.com) | Premium tier and supporter perks. |
+| **Invite** | [Add to your server](https://discord.com/oauth2/authorize?client_id=1432026529805897758&permissions=37088320&scope=bot+applications.commands) | Discord OAuth invite link. |
 
 ## Why a closed-source bot in 2026?
 
