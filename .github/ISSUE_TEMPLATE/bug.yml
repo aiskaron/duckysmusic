@@ -1,0 +1,68 @@
+name: Bug in the hosted bot
+description: Report unexpected behaviour you observe in your Discord server.
+title: "[bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this form only for issues you observe **on the AIskaron-hosted DuckysMusic** in your own Discord server. Source-level questions, internal architecture, and reverse-engineering reports will be closed.
+  - type: input
+    id: guild-id
+    attributes:
+      label: Guild ID
+      description: Right-click your server icon, Copy Server ID. Server ID is required so we can correlate with our logs.
+    validations:
+      required: true
+  - type: input
+    id: channel-id
+    attributes:
+      label: Channel ID where it happened
+      description: Right-click the channel, Copy Channel ID.
+    validations:
+      required: false
+  - type: input
+    id: when
+    attributes:
+      label: Approximate timestamp (your local time, with timezone)
+      placeholder: "2026-04-30 21:15 Europe/Madrid"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What did the bot do?
+      description: Plain-language description, not code.
+    validations:
+      required: true
+  - type: textarea
+    id: what-expected
+    attributes:
+      label: What did you expect it to do?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered list of slash commands or interactions, in order.
+      placeholder: |
+        1. /play https://...
+        2. /skip
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: uptime
+    attributes:
+      label: Output of /uptime at the time of the issue
+      description: If you can, run /uptime in your server and paste the result.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read the README and confirmed that this is a behaviour bug, not a request for source code.
+          required: true

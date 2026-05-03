@@ -1,0 +1,40 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+
+# Editor / IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Local notes that should never reach the showcase
+NOTES.local.md
+TODO.local.md
+*.local.md
+.scratch/
+.private/
+
+# Anything that looks like an env or secret, even by accident
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*secret*
+*token*
+*credential*
+
+# Build artifacts (this repo has none, but defensive)
+dist/
+build/
+node_modules/
+
+# Backup files from editors and tooling
+*.bak
+*.orig
+.backups/

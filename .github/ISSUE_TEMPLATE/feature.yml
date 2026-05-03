@@ -1,0 +1,60 @@
+name: Feature request for the hosted bot
+description: Suggest a user-facing improvement to the AIskaron-hosted DuckysMusic.
+title: "[feature] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request a new command, an option on an existing
+        command, or a behaviour change that you want to see in the
+        AIskaron-hosted DuckysMusic. Source-level proposals, pull requests,
+        and architecture suggestions will be closed.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation in your server, not the solution you imagine.
+      placeholder: When my DJ leaves, the queue clears and we lose the playlist we were building all evening.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like the bot to do?
+      description: One paragraph, plain language. No code, no internal field names.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you have already tried
+      description: Other commands, other bots, manual steps. Helps us avoid building something redundant.
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Who benefits from this?
+      options:
+        - Just my server
+        - Most servers running the bot
+        - Specific community type (describe below)
+    validations:
+      required: true
+  - type: input
+    id: guild-size
+    attributes:
+      label: Approximate guild size
+      placeholder: "e.g. 250 members, ~30 active in voice"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this is a request for the hosted bot, not a contribution to the source code.
+          required: true
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true

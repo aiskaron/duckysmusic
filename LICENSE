@@ -1,0 +1,52 @@
+Copyright (c) 2024-2026 AIskaron Inc. All Rights Reserved.
+
+PROPRIETARY SHOWCASE LICENSE
+
+This repository contains marketing materials, public documentation, and
+trademark assets for DuckysMusic, a closed-source Discord music bot
+operated by AIskaron Inc. It deliberately does not include source code.
+
+WHAT THIS REPOSITORY CONTAINS
+
+- README.md and the docs/ directory: public-facing documentation that
+  describes how to use the bot, what permissions it needs, and the
+  guarantees AIskaron Inc. makes about its operation.
+- CHANGELOG.md: public-facing release notes summarised for end users.
+- assets/: trademarks (icon, logo, brand colors) belonging to
+  AIskaron Inc.
+- .github/: issue templates for end-user bug reports against the
+  hosted bot.
+
+PERMITTED USE
+
+You may:
+1. Read this repository.
+2. Link to it from blog posts, social media, server announcements, and
+   third-party indexes (e.g. top.gg listings).
+3. Quote short excerpts of the documentation with attribution.
+4. Open issues describing bugs you observe in your own Discord server
+   while interacting with the hosted bot.
+
+RESTRICTED USE
+
+You may not:
+1. Re-host this repository's contents under a different brand or as if
+   it were your own product.
+2. Use the DuckysMusic name, the icon in assets/, or any wordmark or
+   logomark contained here in derivative or competing products.
+3. Reverse engineer the bot's behaviour from the documentation in an
+   attempt to reconstruct the source code, and then publish or
+   distribute that reconstruction.
+4. Misrepresent this repository as the source of a Discord music bot.
+
+NO WARRANTY
+
+The hosted DuckysMusic service is provided "as is", without warranty of
+any kind. AIskaron Inc. may discontinue, suspend, or modify the bot at
+any time without notice.
+
+CONTACT
+
+Trademark and licensing questions: legal@aiskaron.com
+Security disclosures: security@aiskaron.com
+General contact: hello@aiskaron.com
