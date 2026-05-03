@@ -139,8 +139,9 @@ Once added, type `/help` in any channel where the bot is present. Type `/languag
 | **Website** | [bot.aiskaron.com](https://bot.aiskaron.com) | Product overview, features, FAQ. |
 | **Dashboard** | [dashboard.aiskaron.com](https://dashboard.aiskaron.com) | Configure DJ role, default volume, language and other per-server settings via OAuth login. |
 | **Status** | [status.aiskaron.com](https://status.aiskaron.com) | Live uptime for the bot and the audio node. |
-| **Premium** | [premium.aiskaron.com](https://premium.aiskaron.com) | Premium tier and supporter perks. |
 | **Invite** | [Add to your server](https://discord.com/oauth2/authorize?client_id=1432026529805897758&permissions=37088320&scope=bot+applications.commands) | Discord OAuth invite link. |
+
+> The bot is **free**. There is no paid tier and no upsell.
 
 ## Why a closed-source bot in 2026?
 
